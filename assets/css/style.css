@@ -329,6 +329,7 @@ li > a:hover{
   line-height: 1.2;
   text-transform: uppercase;
   font-size: 38px;
+
   color: #161616;
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
@@ -812,7 +813,7 @@ li > a:hover{
   margin-left: 0px;
 }
 
-.dest-main-title, .dest-head, .dest-subtitle{
+, .dest-head, .dest-subtitle{
   text-align: center;
 }
 
@@ -821,6 +822,14 @@ li > a:hover{
   width: 100vw;
   height: 70vh;
   text-decoration: none;
+}
+
+.dest-main-title{
+  margin-top: 100px;
+}
+
+.dest-subtitle{
+  text-align: center;
 }
 
 /*Guides*/
@@ -1135,7 +1144,13 @@ li > a:hover{
   margin-top: 80px;
 }
 
+.dest-main-title{
+  margin-top: 100px;
 }
+
+}
+
+
 
 /*// Large devices (desktops, 770px and up)*/
 @media (min-width: 770px){
@@ -1302,5 +1317,11 @@ p > .email-me{
   height: 90vh;
 }
 
+
+
+.resources-text > a{
+  color: #53A2BE;
+  text-decoration: none;
+}
 
 
